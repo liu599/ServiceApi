@@ -7,7 +7,6 @@ import (
 	"github.com/gin-gonic/gin"
 	"io/ioutil"
 	"net/http"
-	"os"
 )
 
 func main() {
@@ -29,13 +28,16 @@ func main() {
 
 	routerGroup := engine.Group("v1/apps")
 
-	routerGroup.Handle("GET", "friends", ReadFileController)
+	routerGroup.Handle("GET", "friends", FetchFriendListController)
+	routerGroup.Handle("GET", "favorites.json", FetchFavoriteListController)
 
 	engine.Run(":11030")
 }
 
-func ReadFileController(context *gin.Context) {
-	apMsg, errorMessage := ReadFile()
+func FetchFriendListController(context *gin.Context) {
+	apMsg, errorMessage := FetchRemote(
+		"https://raw.githubusercontent.com/liu599/ServiceApi/master/friends.json",
+	)
 	if errorMessage != "" {
 		RespondError(context, http.StatusInternalServerError, errorMessage)
 		return
@@ -45,14 +47,33 @@ func ReadFileController(context *gin.Context) {
 	Respond(context, http.StatusOK, mk)
 }
 
-func ReadFile() (appMsg map[string]interface{}, errMsg string) {
-	f, err := os.OpenFile("friends.json", os.O_RDONLY, 0)
-	defer f.Close()
+
+func FetchFavoriteListController(context *gin.Context) {
+	apMsg, errorMessage := FetchRemote(
+		"https://raw.githubusercontent.com/liu599/ServiceApi/master/favorites.json",
+	)
+	if errorMessage != "" {
+		RespondError(context, http.StatusInternalServerError, errorMessage)
+		return
+	}
+	mk := make(map[string]interface{})
+	mk["data"] = apMsg
+	Respond(context, http.StatusOK, mk)
+}
+
+
+func FetchRemote(address string) (appMsg map[string]interface{}, errMsg string) {
+	//f, err := os.OpenFile("friends.json", os.O_RDONLY, 0)
+	client := &http.Client{}
+	req, _ := http.NewRequest("GET", address, nil)
+	resp, err := client.Do(req)
+	//defer f.Close()
 	if err != nil {
 		errMsg = fmt.Sprintf("Reading Document : ERROR : %v", err)
 		return nil, errMsg
 	}
-	data, err := ioutil.ReadAll(f)
+	//data, err := ioutil.ReadAll(f)
+	data, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		errMsg = fmt.Sprintf("Reading Document : ERROR : %v", err)
 		return nil, errMsg
