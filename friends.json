@@ -1,10 +1,10 @@
 {
   "version": "0.0.1",
   "description": "友情链接",
-  "content": [
+  "data": [
     {
       "category": "科技类",
-      "friends": [
+      "data": [
         {
           "title": "dtysky",
           "link": "http://dtysky.moe/"
@@ -45,7 +45,7 @@
     },
     {
       "category": "偶像厨",
-      "friends": [
+      "data": [
         {
           "title": "terry-rice",
           "link": "http://d.hatena.ne.jp/terry-rice/"
