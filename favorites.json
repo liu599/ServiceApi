@@ -31,6 +31,16 @@
           "link": "https://gist.github.com/nikhita/432436d570b89cab172dcf2894465753"
         }
       ]
+    },
+    {
+      "tags": "nginx",
+      "category": "nginx, BEND",
+      "links": [
+        {
+          "title": "Nginx proxy_pass: examples for how does nginx proxy_pass map the request",
+          "link": "https://www.liaohuqiu.net/posts/nginx-proxy-pass/"
+        }
+      ]
     }
   ]
 }
