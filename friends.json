@@ -3,7 +3,7 @@
   "description": "友情链接",
   "data": [
     {
-      "category": "科技类",
+      "title": "科技类",
       "data": [
         {
           "title": "dtysky",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "category": "偶像厨",
+      "title": "偶像厨",
       "data": [
         {
           "title": "terry-rice",
