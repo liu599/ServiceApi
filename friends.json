@@ -1,0 +1,57 @@
+{
+  "version": "0.0.1",
+  "description": "友情链接",
+  "content": [
+    {
+      "category": "科技类",
+      "friends": [
+        {
+          "title": "dtysky",
+          "link": "http://dtysky.moe/"
+        },
+        {
+          "title": "acgtofe",
+          "link": "http://acgtofe.com/"
+        },
+        {
+          "title": "卡瓦邦噶！",
+          "link": "https://www.kawabangga.com/"
+        },
+        {
+          "title": "FieldOfHope",
+          "link": "https://reishin.me/"
+        },
+        {
+          "title": "Jartto",
+          "link": "http://jartto.wang"
+        },
+        {
+          "title": "吕大豹",
+          "link": "https://www.cnblogs.com/lvdabao/"
+        },
+        {
+          "title": "laike9m",
+          "link": "https://laike9m.com/"
+        },
+        {
+          "title": "Timothy",
+          "link": "https://xiaozhou.net/"
+        },
+        {
+          "title": "Sonic853",
+          "link": "https://blog.853lab.com/"
+        }
+      ]
+    },
+    {
+      "category": "偶像厨",
+      "friends": [
+        {
+          "title": "terry-rice",
+          "link": "http://d.hatena.ne.jp/terry-rice/"
+        }
+      ]
+    }
+  ]
+}
+
