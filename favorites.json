@@ -21,6 +21,16 @@
           "link": "https://deepzz.com/post/elasticsearch.html"
         }
       ]
+    },
+    {
+      "tags": "Devops",
+      "category": "Devops",
+      "links": [
+        {
+          "title": "How to update the Go version",
+          "link": "https://gist.github.com/nikhita/432436d570b89cab172dcf2894465753"
+        }
+      ]
     }
   ]
 }
