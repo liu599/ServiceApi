@@ -29,7 +29,7 @@ func main() {
 	routerGroup := engine.Group("v1/apps")
 
 	routerGroup.Handle("GET", "friends", FetchFriendListController)
-	routerGroup.Handle("GET", "favorites.json", FetchFavoriteListController)
+	routerGroup.Handle("GET", "favorites", FetchFavoriteListController)
 
 	engine.Run(":11030")
 }
