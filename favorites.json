@@ -3,11 +3,22 @@
   "description": "我的网络收藏夹",
   "content": [
     {
+      "tags": "Javascript, FEND",
       "category": "REACT",
       "links": [
         {
           "title": "[译] 深入理解 React 高阶组件",
           "link": "https://zhuanlan.zhihu.com/p/49485308"
+        }
+      ]
+    },
+    {
+      "tags": "ElasticSearch, BEND",
+      "category": "ElasticSearch",
+      "links": [
+        {
+          "title": "使用Elasticsearch作为本博客搜索引擎，强大",
+          "link": "https://deepzz.com/post/elasticsearch.html"
         }
       ]
     }
