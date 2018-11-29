@@ -41,6 +41,16 @@
           "link": "https://www.liaohuqiu.net/posts/nginx-proxy-pass/"
         }
       ]
+    },
+    {
+      "tags": "Javascript, FEND",
+      "category": "Note",
+      "links": [
+        {
+          "title": "chenhaoact-fe-learn",
+          "link": "https://chenhaoact.gitbooks.io/chenhaoact-fe-learn/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-zu-jian-ku-shi-yong-3001-yan-jiu-yu-can-yu-dai-ma-gong-xian/ant-design.html"
+        }
+      ]
     }
   ]
 }
