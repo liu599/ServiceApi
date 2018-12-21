@@ -57,7 +57,7 @@
       ]
     },
     {
-      "title": "偶像厨",
+      "title": "Anime",
       "data": [
         {
           "title": "terry-rice",
@@ -66,6 +66,10 @@
         {
           "title": "Seiyuu Database",
           "link": "http://www.usagi.org/doi/seiyuu/index.html"
+        },
+        {
+          "title": "lashinbang",
+          "link": "https://www.lashinbang.com/"
         }
       ]
     }
