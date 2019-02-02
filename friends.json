@@ -73,26 +73,25 @@
       "title": "Online Shopping",
       "data": [
         {
-          "title": "Bushiroad EC Shop",
+          "title": "BR-ECShop",
           "link": "https://bushiroad-ecshop.com/"
         },
         {
-          "title": "Bushiroad Creative",
+          "title": "BR-Creative",
           "link": "https://bushiroad-creative.com/"
         },
         {
-          "title": "チケット流通センター",
+          "title": "チケット",
           "link": "https://www.ticket.co.jp"
         },
         {
-          "title": "Amazon Japan",
+          "title": "AmazonJP",
           "link": "https://amazon.co.jp/"
         },
         {
           "title": "铭瑄",
           "link": "http://www.mxhaitao.com/"
         }
-
       ]
     }
   ]
