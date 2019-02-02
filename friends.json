@@ -57,7 +57,7 @@
       ]
     },
     {
-      "title": "Anime",
+      "title": "Anime Blog",
       "data": [
         {
           "title": "terry-rice",
@@ -66,11 +66,33 @@
         {
           "title": "Seiyuu Database",
           "link": "http://www.usagi.org/doi/seiyuu/index.html"
+        }
+      ]
+    },
+    {
+      "title": "Online Shopping",
+      "data": [
+        {
+          "title": "Bushiroad EC Shop",
+          "link": "https://bushiroad-ecshop.com/"
         },
         {
-          "title": "lashinbang",
-          "link": "https://www.lashinbang.com/"
+          "title": "Bushiroad Creative",
+          "link": "https://bushiroad-creative.com/"
+        },
+        {
+          "title": "チケット流通センター",
+          "link": "https://www.ticket.co.jp"
+        },
+        {
+          "title": "Amazon Japan",
+          "link": "https://amazon.co.jp/"
+        },
+        {
+          "title": "铭瑄",
+          "link": "http://www.mxhaitao.com/"
         }
+
       ]
     }
   ]
