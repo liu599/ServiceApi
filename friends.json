@@ -3,7 +3,7 @@
   "description": "友情链接",
   "data": [
     {
-      "title": "科技类",
+      "title": "Technology",
       "data": [
         {
           "title": "dtysky",
@@ -56,11 +56,19 @@
         {
           "title": "猫箱内の六轩岛",
           "link": "https://batora.ushiromiya.com"
+        },
+        {
+          "title": "DIYGOD",
+          "link": "https://diygod.me"
+        },
+        {
+          "title": "Conoha站点集",
+          "link": "https://conoha.vip"
         }
       ]
     },
     {
-      "title": "开发团队",
+      "title": "Dev Team",
       "data": [
         {
           "title": "腾讯alloy-team",
@@ -69,6 +77,14 @@
         {
           "title": "凹凸实验室",
           "link": "https://aotu.io/index.html"
+        },
+        {
+          "title": "InfoQ",
+          "link": "https://www.infoq.cn/"
+        },
+        {
+          "title": "饿了么前端团队",
+          "link": "https://zhuanlan.zhihu.com/ElemeFE"
         }
       ]
     },
@@ -86,7 +102,7 @@
       ]
     },
     {
-      "title": "Online Shopping",
+      "title": "Shopping",
       "data": [
         {
           "title": "BR-ECShop",
@@ -107,6 +123,14 @@
         {
           "title": "铭瑄",
           "link": "http://www.mxhaitao.com/"
+        },
+        {
+          "title": "チケット流通センター",
+          "link": "https://ticket.co.jp"
+        },
+        {
+          "title": "チケットストリート",
+          "link": "https://ticket.st/"
         }
       ]
     }
