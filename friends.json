@@ -113,6 +113,10 @@
       "title": "Shopping",
       "data": [
         {
+          "title": "GalaxyLivehouse",
+          "link": "https://galaxy-livehouse.com/"
+        },
+        {
           "title": "BR-ECShop",
           "link": "https://bushiroad-ecshop.com/"
         },
